@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> <!-- Embedded Resource: Indica que o arquivo será compilado junto com o assembly -->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="MXM.Treinamento.Domain"
+namespace="MXM.Treinamento.Domain.Entity">
+  <class name="Aluno" table="" lazy="true">
+    <id name="Identificador" column="">
+      <generator class="native">
+        <param name="sequence"></param>
+      </generator>
+    </id>
+    <property name="Nome" column=""/>
+    <property name="CPF" column=""/>
+    <property name="DataNascimento" column=""/>
+    <property name="Email" column=""/>
+
+  </class>
+</hibernate-mapping>
+
+
